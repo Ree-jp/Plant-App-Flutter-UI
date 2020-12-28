@@ -25,7 +25,7 @@ class RecommendsPlants extends StatelessWidget {
           ),
           RecommendPlatCard(
             image: "assets/images/image_2.png",
-            title: "samantha",
+            title: "Angelica",
             country: "Russia",
             price: 440,
             press: () {
@@ -38,10 +38,7 @@ class RecommendsPlants extends StatelessWidget {
             title: "samantha",
             country: "Russia",
             price: 440,
-            press: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DetailsScreen()));
-            },
+            press: () {},
           )
         ],
       ),

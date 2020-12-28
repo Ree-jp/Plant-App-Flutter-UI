@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/constants.dart';
-import 'file:///D:/code/Android%20Studio/plant_app/lib/screens/home/home_screen.dart';
+import 'screens/home/home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBackgroundColor,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
-        visualDensity: VisualDensity.standard,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen()
+      home: HomeScreen(),
     );
   }
 }
